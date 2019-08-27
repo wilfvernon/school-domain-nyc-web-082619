@@ -17,9 +17,6 @@ class School
     @roster[grade_number]
   end
   def sort
-    sorted_names = @roster.each {|grade, names| names.sort! 
-    binding.pry}
-    
-    binding.pry
+    sorted_names = @roster.each {|grade, names| names.sort!}
   end
 end
