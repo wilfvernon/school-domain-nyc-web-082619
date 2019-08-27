@@ -12,4 +12,7 @@ class School
     end
     @roster[grade].push(name)
   end
+  def grade(grade_number)
+    @roster[grade]
+  end
 end
